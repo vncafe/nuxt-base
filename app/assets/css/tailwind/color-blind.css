@@ -1,0 +1,67 @@
+html[data-theme-color-blind="protanopia"] {
+    /** Text thường dùng primary 950, nền dùng neutral 50 */
+    /** Màu trung tính với các sắc thái */
+    --color-neutral-50: #f9fafb;
+    --color-neutral-100: #f3f4f6;
+    --color-neutral-200: #e5e7eb;
+    --color-neutral-300: #d1d5db;
+    --color-neutral-400: #9ca3af;
+    --color-neutral-500: #6b7280;
+    --color-neutral-600: #4b5563;
+    --color-neutral-700: #374151;
+    --color-neutral-800: #1f2937;
+    --color-neutral-900: #111827;
+    --color-neutral-950: #030712;
+
+    /** Màu chủ đạo với các sắc thái */
+    --color-primary-0: #ffffff;
+    --color-primary-50: #f0f9ff;
+    --color-primary-100: #FFFFE5;
+    --color-primary-200: #FFF7BC;
+    --color-primary-300: #FEE391;
+    --color-primary-400: #FEC44F;
+    --color-primary-500: #FB9A29;
+    --color-primary-600: #EC7014;
+    --color-primary-700: #CC4C02;
+    --color-primary-800: #993404;
+    --color-primary-900: #662506;
+    --color-primary-950: #994f00;
+    --color-primary-1000: #000000;
+
+    /** Màu nhấn mạnh */
+    --color-accent-danger-50: #d55e00;
+    --color-accent-danger-100: #d55e00;
+    --color-accent-danger-200: #d55e00;
+    --color-accent-danger-300: #d55e00;
+    --color-accent-danger-400: #d55e00;
+    --color-accent-danger-500: #d55e00;
+    --color-accent-danger-600: #d55e00;
+    --color-accent-danger-700: #d55e00;
+    --color-accent-danger-800: #d55e00;
+    --color-accent-danger-900: #d55e00;
+    --color-accent-danger-950: #d55e00;
+
+    --color-accent-warning-50: #f0e442;
+    --color-accent-warning-100: #f0e442;
+    --color-accent-warning-200: #f0e442;
+    --color-accent-warning-300: #f0e442;
+    --color-accent-warning-400: #f0e442;
+    --color-accent-warning-500: #f0e442;
+    --color-accent-warning-600: #f0e442;
+    --color-accent-warning-700: #f0e442;
+    --color-accent-warning-800: #f0e442;
+    --color-accent-warning-900: #f0e442;
+    --color-accent-warning-950: #f0e442;
+
+    --color-accent-success-50: #009e73;
+    --color-accent-success-100: #009e73;
+    --color-accent-success-200: #009e73;
+    --color-accent-success-300: #009e73;
+    --color-accent-success-400: #009e73;
+    --color-accent-success-500: #009e73;
+    --color-accent-success-600: #009e73;
+    --color-accent-success-700: #009e73;
+    --color-accent-success-800: #009e73;
+    --color-accent-success-900: #009e73;
+    --color-accent-success-950: #009e73;
+}

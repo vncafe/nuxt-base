@@ -1,0 +1,66 @@
+html[data-theme="dark"] {
+  /** Màu trung tính với các sắc thái */
+  --color-neutral-50: #030712;
+  --color-neutral-100: #111827;
+  --color-neutral-200: #1f2937;
+  --color-neutral-300: #374151;
+  --color-neutral-400: #4b5563;
+  --color-neutral-500: #6b7280;
+  --color-neutral-600: #9ca3af;
+  --color-neutral-700: #d1d5db;
+  --color-neutral-800: #e5e7eb;
+  --color-neutral-900: #f3f4f6;
+  --color-neutral-950: #f9fafb;
+
+  /** Màu chủ đạo với các sắc thái */
+  --color-primary-0: #000000;
+  --color-primary-50: #082f49;
+  --color-primary-100: #0c4a6e;
+  --color-primary-200: #075985;
+  --color-primary-300: #0369a1;
+  --color-primary-400: #0284c7;
+  --color-primary-500: #0ea5e9;
+  --color-primary-600: #38bdf8;
+  --color-primary-700: #7dd3fc;
+  --color-primary-800: #bae6fd;
+  --color-primary-900: #e0f2fe;
+  --color-primary-950: #f0f9ff;
+  --color-primary-1000: #ffffff;
+
+  /** Màu nhấn mạnh */
+  --color-accent-danger-50: #4c0519;
+  --color-accent-danger-100: #881337;
+  --color-accent-danger-200: #9f1239;
+  --color-accent-danger-300: #be123c;
+  --color-accent-danger-400: #e11d48;
+  --color-accent-danger-500: #f43f5e;
+  --color-accent-danger-600: #fb7185;
+  --color-accent-danger-700: #fda4af;
+  --color-accent-danger-800: #fecdd3;
+  --color-accent-danger-900: #ffe4e6;
+  --color-accent-danger-950: #fff1f2;
+
+  --color-accent-warning-50: #451a03;
+  --color-accent-warning-100: #78350f;
+  --color-accent-warning-200: #92400e;
+  --color-accent-warning-300: #b45309;
+  --color-accent-warning-400: #d97706;
+  --color-accent-warning-500: #f59e0b;
+  --color-accent-warning-600: #fbbf24;
+  --color-accent-warning-700: #fcd34d;
+  --color-accent-warning-800: #fde68a;
+  --color-accent-warning-900: #fef3c7;
+  --color-accent-warning-950: #fffbeb;
+
+  --color-accent-success-50: #f7fee7;
+  --color-accent-success-100: #ecfccb;
+  --color-accent-success-200: #d9f99d;
+  --color-accent-success-300: #bef264;
+  --color-accent-success-400: #a3e635;
+  --color-accent-success-500: #84cc16;
+  --color-accent-success-600: #65a30d;
+  --color-accent-success-700: #4d7c0f;
+  --color-accent-success-800: #3f6212;
+  --color-accent-success-900: #365314;
+  --color-accent-success-950: #1a2e05;
+}
