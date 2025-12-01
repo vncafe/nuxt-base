@@ -1,17 +1,17 @@
-import type { Config } from "tailwindcss";
+import type { Config } from 'tailwindcss'
 
 const config: Config = {
   content: [
-    "{srcDir}/components/**/*.{vue,js,jsx,mjs,ts,tsx}",
-    "{srcDir}/layouts/**/*.{vue,js,jsx,mjs,ts,tsx}",
-    "{srcDir}/pages/**/*.{vue,js,jsx,mjs,ts,tsx}",
-    "{srcDir}/plugins/**/*.{js,ts,mjs}",
-    "{srcDir}/composables/**/*.{js,ts,mjs}",
-    "{srcDir}/utils/**/*.{js,ts,mjs}",
-    "{srcDir}/{A,a}pp.{vue,js,jsx,mjs,ts,tsx}",
-    "{srcDir}/{E,e}rror.{vue,js,jsx,mjs,ts,tsx}",
-    "{srcDir}/app.config.{js,ts,mjs}",
-    "{srcDir}/app/spa-loading-template.html"
+    '{srcDir}/components/**/*.{vue,js,jsx,mjs,ts,tsx}',
+    '{srcDir}/layouts/**/*.{vue,js,jsx,mjs,ts,tsx}',
+    '{srcDir}/pages/**/*.{vue,js,jsx,mjs,ts,tsx}',
+    '{srcDir}/plugins/**/*.{js,ts,mjs}',
+    '{srcDir}/composables/**/*.{js,ts,mjs}',
+    '{srcDir}/utils/**/*.{js,ts,mjs}',
+    '{srcDir}/{A,a}pp.{vue,js,jsx,mjs,ts,tsx}',
+    '{srcDir}/{E,e}rror.{vue,js,jsx,mjs,ts,tsx}',
+    '{srcDir}/app.config.{js,ts,mjs}',
+    '{srcDir}/app/spa-loading-template.html',
   ],
   theme: {
     /** Tạo các breakpoint cho các kích thước màn hình
@@ -20,109 +20,107 @@ const config: Config = {
     screens: {
       // xs: "320px", // Giá trị breakpoint cho xs. Thường thì đây là mức tối thiểu để áp dụng màn di động. Thấp hơn sẽ từ chối hiển thị.
       /** Các giá trị không đạt sm sẽ tự động coi là di động */
-      sm: "640px", // Giá trị breakpoint cho sm. Đây nên là một màn hình Ipad nhỏ.
-      md: "768px", // Giá trị breakpoint cho md. Cỡ Ipad lớn.
-      lg: "1024px", // Giá trị breakpoint cho lg. Cỡ Laptop.
-      xl: "1280px", // Giá trị breakpoint cho lg. Cỡ destop LCD nhỏ.
-      "2xl": "1536px", // Giá trị breakpoint cho xl. Cỡ destop LCD trung bình.
-      "4xl": "1920px", // Giá trị breakpoint cho xl. Cỡ destop LCD rộng.
+      sm: '640px', // Giá trị breakpoint cho sm. Đây nên là một màn hình Ipad nhỏ.
+      md: '768px', // Giá trị breakpoint cho md. Cỡ Ipad lớn.
+      lg: '1024px', // Giá trị breakpoint cho lg. Cỡ Laptop.
+      xl: '1280px', // Giá trị breakpoint cho lg. Cỡ destop LCD nhỏ.
+      '2xl': '1536px', // Giá trị breakpoint cho xl. Cỡ destop LCD trung bình.
+      '4xl': '1920px', // Giá trị breakpoint cho xl. Cỡ destop LCD rộng.
       // => @media (min-width: 1920px) { ... }
     },
     /** Phát triển mở rộng, thêm mới thuộc tính */
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+        'gradient-conic':
+          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       /** Các màu muốn tuỳ chỉnh theo theme */
       colors: {
         /** Màu trung tính - thường là xám */
         'var-neutral': {
-          "50": 'var(--color-neutral-50)',
-          "100": 'var(--color-neutral-100)',
-          "200": 'var(--color-neutral-200)',
-          "300": 'var(--color-neutral-300)',
-          "400": 'var(--color-neutral-400)',
-          "500": 'var(--color-neutral-500)',
-          "600": 'var(--color-neutral-600)',
-          "700": 'var(--color-neutral-700)',
-          "800": 'var(--color-neutral-800)',
-          "900": 'var(--color-neutral-900)',
-          "950": 'var(--color-neutral-950)',
+          '50': 'var(--color-neutral-50)',
+          '100': 'var(--color-neutral-100)',
+          '200': 'var(--color-neutral-200)',
+          '300': 'var(--color-neutral-300)',
+          '400': 'var(--color-neutral-400)',
+          '500': 'var(--color-neutral-500)',
+          '600': 'var(--color-neutral-600)',
+          '700': 'var(--color-neutral-700)',
+          '800': 'var(--color-neutral-800)',
+          '900': 'var(--color-neutral-900)',
+          '950': 'var(--color-neutral-950)',
         },
         /** Màu chính */
         'var-primary': {
-          "0": 'var(--color-primary-0)',
-          "50": 'var(--color-primary-50)',
-          "100": 'var(--color-primary-100)',
-          "200": 'var(--color-primary-200)',
-          "300": 'var(--color-primary-300)',
-          "400": 'var(--color-primary-400)',
-          "500": 'var(--color-primary-500)',
-          "600": 'var(--color-primary-600)',
-          "700": 'var(--color-primary-700)',
-          "800": 'var(--color-primary-800)',
-          "900": 'var(--color-primary-900)',
-          "950": 'var(--color-primary-950)',
-          "1000": 'var(--color-primary-1000)',
+          '0': 'var(--color-primary-0)',
+          '50': 'var(--color-primary-50)',
+          '100': 'var(--color-primary-100)',
+          '200': 'var(--color-primary-200)',
+          '300': 'var(--color-primary-300)',
+          '400': 'var(--color-primary-400)',
+          '500': 'var(--color-primary-500)',
+          '600': 'var(--color-primary-600)',
+          '700': 'var(--color-primary-700)',
+          '800': 'var(--color-primary-800)',
+          '900': 'var(--color-primary-900)',
+          '950': 'var(--color-primary-950)',
+          '1000': 'var(--color-primary-1000)',
         },
         /** Màu nhấn */
         'var-accent': {
           danger: {
-            "50": 'var(--color-accent-danger-50)',
-            "100": 'var(--color-accent-danger-100)',
-            "200": 'var(--color-accent-danger-200)',
-            "300": 'var(--color-accent-danger-300)',
-            "400": 'var(--color-accent-danger-400)',
-            "500": 'var(--color-accent-danger-500)',
-            "600": 'var(--color-accent-danger-600)',
-            "700": 'var(--color-accent-danger-700)',
-            "800": 'var(--color-accent-danger-800)',
-            "900": 'var(--color-accent-danger-900)',
-            "950": 'var(--color-accent-danger-950)',
+            '50': 'var(--color-accent-danger-50)',
+            '100': 'var(--color-accent-danger-100)',
+            '200': 'var(--color-accent-danger-200)',
+            '300': 'var(--color-accent-danger-300)',
+            '400': 'var(--color-accent-danger-400)',
+            '500': 'var(--color-accent-danger-500)',
+            '600': 'var(--color-accent-danger-600)',
+            '700': 'var(--color-accent-danger-700)',
+            '800': 'var(--color-accent-danger-800)',
+            '900': 'var(--color-accent-danger-900)',
+            '950': 'var(--color-accent-danger-950)',
           },
           warning: {
-            "50": 'var(--color-accent-warning-50)',
-            "100": 'var(--color-accent-warning-100)',
-            "200": 'var(--color-accent-warning-200)',
-            "300": 'var(--color-accent-warning-300)',
-            "400": 'var(--color-accent-warning-400)',
-            "500": 'var(--color-accent-warning-500)',
-            "600": 'var(--color-accent-warning-600)',
-            "700": 'var(--color-accent-warning-700)',
-            "800": 'var(--color-accent-warning-800)',
-            "900": 'var(--color-accent-warning-900)',
-            "950": 'var(--color-accent-warning-950)',
+            '50': 'var(--color-accent-warning-50)',
+            '100': 'var(--color-accent-warning-100)',
+            '200': 'var(--color-accent-warning-200)',
+            '300': 'var(--color-accent-warning-300)',
+            '400': 'var(--color-accent-warning-400)',
+            '500': 'var(--color-accent-warning-500)',
+            '600': 'var(--color-accent-warning-600)',
+            '700': 'var(--color-accent-warning-700)',
+            '800': 'var(--color-accent-warning-800)',
+            '900': 'var(--color-accent-warning-900)',
+            '950': 'var(--color-accent-warning-950)',
           },
           success: {
-            "50": 'var(--color-accent-success-50)',
-            "100": 'var(--color-accent-success-100)',
-            "200": 'var(--color-accent-success-200)',
-            "300": 'var(--color-accent-success-300)',
-            "400": 'var(--color-accent-success-400)',
-            "500": 'var(--color-accent-success-500)',
-            "600": 'var(--color-accent-success-600)',
-            "700": 'var(--color-accent-success-700)',
-            "800": 'var(--color-accent-success-800)',
-            "900": 'var(--color-accent-success-900)',
-            "950": 'var(--color-accent-success-950)',
-          }
+            '50': 'var(--color-accent-success-50)',
+            '100': 'var(--color-accent-success-100)',
+            '200': 'var(--color-accent-success-200)',
+            '300': 'var(--color-accent-success-300)',
+            '400': 'var(--color-accent-success-400)',
+            '500': 'var(--color-accent-success-500)',
+            '600': 'var(--color-accent-success-600)',
+            '700': 'var(--color-accent-success-700)',
+            '800': 'var(--color-accent-success-800)',
+            '900': 'var(--color-accent-success-900)',
+            '950': 'var(--color-accent-success-950)',
+          },
         },
         'var-text': 'var(--color-primary-950)',
         'var-bg': 'var(--color-neutral-50)',
         /** ví dụ test */
-        "vncafe-1": 'var(--color-vncafe)',
-
+        'vncafe-1': 'var(--color-vncafe)',
       },
       fontWeight: {
         /** Chỉ nên dùng từ 400-700. Còn lại dùng sắc thái đậm nhạt màu */
         normal: '400',
-        "normal-2": '500',
+        'normal-2': '500',
         strong: '600',
         'strong-2': '700',
-      }
-
+      },
     },
     accentColor: ({ theme }) => ({
       ...theme('colors'),
@@ -164,13 +162,17 @@ const config: Config = {
     backgroundImage: {
       none: 'none',
       'gradient-to-t': 'linear-gradient(to top, var(--tw-gradient-stops))',
-      'gradient-to-tr': 'linear-gradient(to top right, var(--tw-gradient-stops))',
+      'gradient-to-tr':
+        'linear-gradient(to top right, var(--tw-gradient-stops))',
       'gradient-to-r': 'linear-gradient(to right, var(--tw-gradient-stops))',
-      'gradient-to-br': 'linear-gradient(to bottom right, var(--tw-gradient-stops))',
+      'gradient-to-br':
+        'linear-gradient(to bottom right, var(--tw-gradient-stops))',
       'gradient-to-b': 'linear-gradient(to bottom, var(--tw-gradient-stops))',
-      'gradient-to-bl': 'linear-gradient(to bottom left, var(--tw-gradient-stops))',
+      'gradient-to-bl':
+        'linear-gradient(to bottom left, var(--tw-gradient-stops))',
       'gradient-to-l': 'linear-gradient(to left, var(--tw-gradient-stops))',
-      'gradient-to-tl': 'linear-gradient(to top left, var(--tw-gradient-stops))',
+      'gradient-to-tl':
+        'linear-gradient(to top left, var(--tw-gradient-stops))',
     },
     backgroundOpacity: ({ theme }) => theme('opacity'),
     backgroundPosition: {
@@ -430,7 +432,14 @@ const config: Config = {
         '"Segoe UI Symbol"',
         '"Noto Color Emoji"',
       ],
-      serif: ['ui-serif', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
+      serif: [
+        'ui-serif',
+        'Georgia',
+        'Cambria',
+        '"Times New Roman"',
+        'Times',
+        'serif',
+      ],
       mono: [
         'ui-monospace',
         'SFMono-Regular',
@@ -790,7 +799,6 @@ const config: Config = {
       max: 'max-content',
       fit: 'fit-content',
       prose: '65ch',
-
     }),
     minHeight: ({ theme }) => ({
       ...theme('spacing'),
@@ -1063,7 +1071,8 @@ const config: Config = {
       all: 'all',
       DEFAULT:
         'color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter',
-      colors: 'color, background-color, border-color, text-decoration-color, fill, stroke',
+      colors:
+        'color, background-color, border-color, text-decoration-color, fill, stroke',
       opacity: 'opacity',
       shadow: 'box-shadow',
       transform: 'transform',
@@ -1175,8 +1184,6 @@ const config: Config = {
   },
   plugins: [
     /** Thêm Plugin bổ sung tiện ích form để giúp clear định dạng và ghi đè các phần tử form bằng các lớp tiện ích Tailwind CSS */
-
-
   ],
-};
-export default config;
+}
+export default config

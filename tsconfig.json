@@ -1,6 +1,19 @@
 {
   // https://nuxt.com/docs/guide/concepts/typescript
   "files": [],
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./app/*"],
+      "#build/*": [".nuxt/types/*"],
+      "#app/*": [".nuxt/types/app/*"],
+      "#imports": [".nuxt/imports.d.ts"]
+    }
+  },
   "references": [
     {
       "path": "./.nuxt/tsconfig.app.json"

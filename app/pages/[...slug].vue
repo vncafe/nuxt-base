@@ -1,5 +1,5 @@
-// Page này dùng để hiển thị nội dung từ thư viện @nuxt/content
-// URL sẽ tương ứng với file trong thư mục /content
+// Page này dùng để hiển thị nội dung từ thư viện @nuxt/content // URL sẽ tương
+ứng với file trong thư mục /content
 
 <script lang="ts" setup>
 const route = useRoute()
