@@ -7,24 +7,24 @@ export const useAuthStore = defineStore('auth', {
         return {
             isAuth: false,
             expiredAt: 1720000000,
-            token: null as string | null
+            accessToken: null as string | null
         }
     },
     actions: {
-        login(token: string, expiredAt: number) {
+        login(accessToken: string, expiredAt: number) {
             this.isAuth = true
-            this.token = token
+            this.accessToken = accessToken
             this.expiredAt = expiredAt
         },
         logout() {
             this.isAuth = false
-            this.token = null
+            this.accessToken = null
         },
         setExpiredAt(expiredAt: number) {
-            this.expiredAt = this.expiredAt + 1
+            this.expiredAt = expiredAt
         },
         setToken(token: string) {
-            this.token = token
+            this.accessToken = token
         },
         setIsAuth(isAuth: boolean) {
             this.isAuth = isAuth
@@ -32,7 +32,7 @@ export const useAuthStore = defineStore('auth', {
     },
     // persist: true // 👈 chỉ cần vậy, mặc định là localStorage
     persist: import.meta.client ? [{
-        pick: ['token'], // lưu vào cookie
+        pick: ['accessToken'], // lưu vào cookie
         key: 'bearer_token',
         debug: true
     },
