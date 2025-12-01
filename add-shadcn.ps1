@@ -1,0 +1,45 @@
+$components = @(
+  "alert",
+  "avatar",
+  "badge",
+  "breadcrumb",
+  "button",
+  "calendar",
+  "card",
+  "carousel",
+  "checkbox",
+  "collapsible",
+  "combobox",
+  "command",
+  "dialog",
+  "drawer",
+  "dropdown-menu",
+  "form",
+  "hover-card",
+  "input",
+  "label",
+  "menubar",
+  "navigation-menu",
+  "pagination",
+  "popover",
+  "progress",
+  "radio-group",
+  "scroll-area",
+  "select",
+  "separator",
+  "sheet",
+  "skeleton",
+  "slider",
+  "switch",
+  "table",
+  "tabs",
+  "textarea",
+  "toast",
+  "toggle",
+  "tooltip"
+)
+
+foreach ($c in $components) {
+  Write-Host "Adding $c ..."
+  npx shadcn-vue add $c
+}
