@@ -1,1 +1,1 @@
-# Triển khai persitance storage (pinia)
+# Pinia stores (global reactive state)

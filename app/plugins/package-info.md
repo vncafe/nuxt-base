@@ -1,1 +1,1 @@
-# Đăng ký plugin chạy trước khi render app (axios, pinia, i18n, ...)
+# Inject global functionality vào Nuxt app (axios, pinia, i18n...)

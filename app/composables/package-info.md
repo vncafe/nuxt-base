@@ -1,1 +1,1 @@
-# Hàm composition API (useXyz) dùng lại trong nhiều nơi
+# Composition API logic (useXyz). Chứa reactive logic dùng lại trong nhiều nơi

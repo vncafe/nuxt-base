@@ -1,3 +1,5 @@
-# Code dùng chung (utils, constants, helpers)
+# Code dùng chung giữa client (app/) và server/ (types, constants, helpers...)
 
-│
+types/
+constants/
+utils/

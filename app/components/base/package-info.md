@@ -1,0 +1,1 @@
+# atomic components (nguyên tử)
