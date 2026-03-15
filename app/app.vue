@@ -3,6 +3,7 @@
   <NuxtLayout>
     <!-- NuxtPage render nội dung trang -->
     <NuxtPage />
+    <CustomToast />
   </NuxtLayout>
 </template>
 
