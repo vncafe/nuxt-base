@@ -5,7 +5,7 @@ import {
 } from "~/services/auth.service"
 import type { LoginRequest } from "~/types/api/auth"
 
-export function useAuthApi() {
+export function useAuth() {
   const loading = ref(false)
   const error = ref<Error | null>(null)
 
