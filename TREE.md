@@ -83,3 +83,20 @@ Service
  ↓
 API
 ```
+
+Naming convention
+
+```
+| Loại        | Convention          |
+| ----------- | ------------------- |
+| Folder      | `kebab-case`        |
+| Components  | `PascalCase.vue`    |
+| Pages       | `kebab-case.vue`    |
+| Composables | `useCamelCase.ts`   |
+| Utils       | `camelCase.ts`      |
+| Stores      | `camelCaseStore.ts` |
+| Plugins     | `kebab-case.ts`     |
+| Middleware  | `kebab-case.ts`     |
+| Layouts     | `kebab-case.ts`     |
+
+```
